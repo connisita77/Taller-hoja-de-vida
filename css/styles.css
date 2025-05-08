@@ -1,9 +1,4 @@
 /* Importar la tipografía personalizada */
-@font-face {
-    font-family: 'TuFuenteElegida'; /* Reemplaza con el nombre de tu fuente */
-    src: url('../fonts/tu-fuente-elegida.woff2') format('woff2'); /* Ajusta la ruta y el formato si es necesario */
-    font-weight: normal;
-    font-style: normal;
 }
 
 :root {
