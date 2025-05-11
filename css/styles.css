@@ -11,10 +11,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'CustomFont';
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'CustomFont';
     color: var(--text-color);
     margin: 0;
     padding: 20px;
@@ -98,8 +99,9 @@ body {
 
 
 .sidebar h2 {
+    font-family: 'CustomFont';
     font-size: 18px;
-    background: rgb(255, 255, 255);
+    background: rgb(211, 87, 155);
     border-radius: 40px;
     color: rgb(0, 0, 0);
     margin-top: 20px;
@@ -111,6 +113,8 @@ body {
 }
 
 .sidebar h2::after {
+    font-family: 'CustomFont';
+    font-size: 18px;
     content: '';
     position: absolute;
     left: 0;
@@ -132,6 +136,7 @@ body {
 }
 
 .sidebar ul li {
+    font-family: 'CustomFont';
     margin-bottom: 10px;
     display: flex;
     align-items: center;
@@ -177,6 +182,7 @@ body {
 
 
 .main-content article h3 {
+    font-family: 'CustomFont';
     font-size: 18px;
     color: var(--accent-color);
     margin-bottom: 5px;
@@ -228,6 +234,7 @@ body {
     
     .sidebar h2,
     .sidebar ul {
+        font-family: 'CustomFont';
         text-align: left;
     }
     
